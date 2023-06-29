@@ -2,9 +2,6 @@ from .base_page import BasePage
 from .locators import LoginPageLocators
 import time
 
-
-        # self.email = f'{str(time.time())}@fakemail.org'
-        # self.password = secrets.token_urlsafe(8)
 class LoginPage(BasePage):
 
     def register_new_user(self, email, password):
